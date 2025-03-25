@@ -11,7 +11,7 @@ function Products() {
       live: true,
       Case: false,
       isActive: false,
-      image: "./resources/arquitel.webp",
+      image: `${process.env.PUBLIC_URL}/resources/arquitel.webp`,
     },
     {
       title: "Cula",
@@ -20,7 +20,7 @@ function Products() {
       live: true,
       Case: true,
       isActive: false,
-      image: "./resources/cula.png",
+      image: `${process.env.PUBLIC_URL}/resources/cula.png`,
     },
     {
       title: "TTR",
@@ -29,7 +29,7 @@ function Products() {
       live: true,
       Case: false,
       isActive: false,
-      image: "./resources/ttr.png",
+      image: `${process.env.PUBLIC_URL}/resources/ttr.png`,
     },
     {
       title: "Maniv",
@@ -38,7 +38,7 @@ function Products() {
       live: true,
       Case: false,
       isActive: false,
-      image: "./resources/maniv.jpg",
+      image: `${process.env.PUBLIC_URL}/resources/maniv.jpg`,
     },
     {
       title: "YIR 2025",
@@ -47,7 +47,7 @@ function Products() {
       live: true,
       Case: true,
       isActive: false,
-      image: "./resources/yir2021.png",
+      image: `${process.env.PUBLIC_URL}/resources/yir2021.png`,
     },
   ]);
 
